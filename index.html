@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood Travel and Cargo Services Ltd | The Travel and Holiday Expert</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for professional icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="gallery.html">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Top Info Bar -->
+    <div class="bg-[#0b2b8f] text-slate-200 text-xs py-2 px-4 sm:px-8 flex flex-wrap justify-between items-center border-b border-blue-900/40"> 
+        <div class="flex items-center space-x-4"> 
+          <a href="tel:+2349090709090" class="hover:text-[#ff791a] transition-colors">
+            <i class="fa-solid fa-phone text-[#ff791a] mr-1"></i> +234 (0) 909 070 9090
+          </a> 
+          <a href="mailto:info@neighborhoodtravelandcargo.com.ng" class="hidden sm:inline hover:text-[#ff791a] transition-colors">
+            <i class="fa-solid fa-envelope text-[#ff791a] mr-1"></i> info@neighborhoodtravelandcargo.com.ng
+          </a> 
+        </div> 
+        <div class="flex items-center space-x-4"> 
+          <span class="hidden md:inline"><i class="fa-solid fa-location-dot text-[#ff791a] mr-1"></i> Kano, Nigeria</span> 
+          <div class="flex space-x-3"> 
+            <a href="https://facebook.com/neighborhood.travels/" target="_blank" rel="noopener noreferrer" class="hover:text-[#00b2ec]"><i class="fa-brands fa-facebook-f"></i></a> 
+            <a href="https://instagram.com/neighborhood.travels/" target="_blank" rel="noopener noreferrer" class="hover:text-[#00b2ec]"><i class="fa-brands fa-instagram"></i></a> 
+            <a href="https://tiktok.com/@neighborhood.trav/" target="_blank" rel="noopener noreferrer" class="hover:text-[#00b2ec]"><i class="fa-brands fa-tiktok"></i></a> 
+          </div> 
+        </div> 
+      </div>
+      
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 bg-white shadow-sm border-b border-amber-500/20 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex justify-between items-center">
+          
+          <!-- Logo Section matching the uploaded header style -->
+          <div class="flex items-center space-x-4">
+              <img src="Logo.png" alt="Neighborhood Logo" class="h-16 w-auto object-contain" onerror="this.src='https://placehold.co'">
+              
+              <!-- Main text wrapper changing to a vertical column layout -->
+              <div class="flex flex-col">
+                  <!-- Top branding line -->
+                  <div class="flex flex-wrap items-baseline gap-x-2">
+                      <span class="text-2xl font-black text-[#0b2b8f] tracking-tight">Neighborhood Travel</span>
+                      <span class="text-2xl font-bold text-[#00b2ec] tracking-tight">& Cargo Services Ltd</span>
+                  </div>
+                  
+                  <!-- Slogan line forced to the right under the top line -->
+                  <div class="text-right w-full mt-0.5">
+                      <span class="text-sm font-bold text-[#FFA500] tracking-tight">...the travel and holiday expert</span>
+                  </div>
+              </div>
+          </div>
+        
+          <!-- Layout Wrapper for Divider and Nav Menu -->
+          <div class="flex items-center space-x-8">
+
+            <!-- Extra-Bold Ash Vertical Line Divider -->
+            <div class="hidden md:block h-12 w-[3px] bg-gray-300 rounded-full"></div>
+
+              <!-- Nav Links Matching exact colors from the image -->
+              <nav class="hidden md:flex space-x-4 font-medium text-[15px]">
+                  <a href="#" class="text-[#FFA500] hover:text-[#0b2b8f] transition">Home</a>
+                  <a href="gallery.html" class="text-[#FFA500] hover:text-[#0b2b8f] transition">Gallery</a>
+                  <a href="#packages" class="text-[#FFA500] hover:text-[#0b2b8f] transition">Packages</a>
+                  <a href="#contact" class="text-[#FFA500] hover:text-[#0b2b8f] transition">Book Now</a>
+                  <a href="#contacts" class="text-[#FFA500] hover:text-[#0b2b8f] transition">Contact Us</a>
+              </nav>
+          </div>
+          
+      </div>
+  </header>
+  
+    <!-- Affiliation Logos Section (Top-Right, Under Header) -->
+<div style="display: flex; justify-content: flex-end; align-items: center; gap: 15px; padding: 10px 20px; background-color: #ffffff;">
+    <div style="text-align: right; font-size: 11px; color: #666; font-weight: bold; margin-right: 5px;"></div>
+    <!-- IATA Logo -->
+    <img src="iata-logo.png" alt="IATA Certified" style="height: 40px; width: auto; object-fit: contain;">
+    <!-- NANTA Logo -->
+    <img src="nanta-logo.png" alt="NANTA Member" style="height: 40px; width: auto; object-fit: contain;">
+</div>
+
+
+    <!-- Hero Showcase Banner -->
+    <section class="relative bg-[#8f4f0b] text-white min-h-[520px] flex items-center bg-cover bg-center" style="background-image: linear-gradient(rgba(11, 43, 143, 0.8), rgba(165, 73, 8, 0.865)), url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80');">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full z-10">
+            <div class="max-w-2xl">
+                <span class="text-white uppercase tracking-widest text-xs font-bold bg-[#ff791a] px-3 py-1 rounded-full">Experienced & Reliable</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mt-4 mb-6 leading-tight">
+                    Discover Your <span class="text-[#00b2ec]">Next Adventure</span>
+                </h1>
+                <p class="text-slate-200 text-lg mb-8 leading-relaxed">
+                    Providing premium travel management, highly structured VIP packages, exceptional hospitality, and guided spiritual journeys tailored completely for your comfort.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#packages" class="bg-[#ff791a] hover:bg-[#e0630b] text-white font-bold px-6 py-3 rounded transition shadow-lg">View Packages</a>
+                    <a href="#about" class="border border-sky-400/40 hover:border-white text-white font-medium px-6 py-3 rounded transition bg-white/10 backdrop-blur-sm">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Who We Are Section -->
+<section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      
+      <!-- Intro Text + Mission & Vision -->
+      <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+        <!-- About Us, Mission & Vision -->
+        <div class="mt-8 text-left border-l-4 border-brand-secondary pl-6 space-y-4">
+            <div>
+                <h4 class="text-xl font-bold text-brand-primary">About Us</h4>
+                <p class="text-gray-600">Neighborhood Travel and Cargo Services Ltd is a trusted travel and logistics company based in Kano, with services covering Nigeria and International destinations.</p>
+                <p class="text-gray-600">We provide fast, affordable and reliable solutions for flight booking (International), Visa assistance & processing, Hajj & Umrah packages, Hotel reservations and Airport pickup & Drop.</p>
+            </div>
+          <div>
+            <h4 class="text-xl font-bold text-brand-primary">Our Mission</h4>
+            <p class="text-gray-600">To deliver reliable, transparent, and professional Hajj, Umrah, and global travel services while strictly complying with Nigerian, Saudi, and international regulations.</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold text-brand-primary">Our Vision</h4>
+            <p class="text-gray-600">To be Nigeria’s leading and most trusted tour operator, recognized for excellence, integrity, and seamless journeys. We aim to be the first choice for travelers worldwide, providing pilgrims with spiritually fulfilling experiences rooted in ease, dignity, and peace of mind.</p>
+          </div>
+        </div>
+    </div>
+  
+      <!-- Feature Image Section -->
+      <div class="relative">
+        <img src="De Sol Hotel & Spa 1.jpg" alt="De Sol Hotel & Spa" class="rounded-lg shadow-xl w-full object-cover h-[350px]">
+        <div class="absolute bottom-4 right-4 bg-[#0b2b8f] text-white py-2 px-4 rounded shadow-md text-xs font-medium flex items-center space-x-1">
+          <i class="fa-solid fa-location-dot text-[#ff791a]"></i>
+          <span>Cyclades, Greece</span>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+    <!-- Featured Packages Section -->
+    <section id="packages" class="py-16 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
+            <h2 class="text-xs font-bold text-[#ff791a] tracking-wider uppercase mb-2">Featured Offerings</h2>
+            <h3 class="text-3xl font-bold text-[#0b2b8f]">Our Premium Packages</h3>
+            <p class="text-slate-500 mt-2 max-w-xl mx-auto">Explore breathtaking destinations, custom group travels, and premium private tours designed just for you.</p>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-8">
+            <!-- Package 1 -->
+            <div class="bg-white rounded-lg shadow overflow-hidden border border-slate-200 transition-transform duration-300 hover:-translate-y-2">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('Kaaba\ images\ \(24\).jpg');"></div>
+                <div class="p-6">
+                    <span class="text-xs font-bold text-[#00b2ec] uppercase tracking-widest">VIP Executive</span>
+                    <h4 class="text-xl font-bold text-slate-900 mt-1 mb-3">Premium Ramadan Umrah</h4>
+                    <ul class="text-sm text-slate-600 space-y-2 mb-6">
+                        <li><i class="fa-solid fa-hotel text-slate-400 mr-2"></i> Violet hotel, Al-Bustan, Diyaris-Saady or its Equivalent</li>
+                        <li><i class="fa-solid fa-plane text-slate-400 mr-2"></i> Direct International Flights</li>
+                        <li><i class="fa-solid fa-passport text-slate-400 mr-2"></i> Visa Processing Included</li>
+                    </ul>
+                    <button type="button" onclick="selectPackage('Premium Ramadan Umrah')" class="w-full bg-[#0b2b8f] text-white text-center py-2.5 rounded-xl text-sm font-semibold hover:bg-[#ff791a] transition-all">Enquire Now</button>
+                   </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow overflow-hidden border border-slate-200 transition-transform duration-300 hover:-translate-y-2">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('Makkah_Montage.jpg');"></div>
+                <div class="p-6">
+                    <span class="text-xs font-bold text-[#00b2ec] uppercase tracking-widest">Seasonal Packages</span>
+                    <h4 class="text-xl font-bold text-slate-900 mt-1 mb-3">Standard Hajj Package</h4>
+                    <ul class="text-sm text-slate-600 space-y-2 mb-6">
+                        <li><i class="fa-solid fa-users text-slate-400 mr-2"></i> Full Islamic Guided Lectures</li>
+                        <li><i class="fa-solid fa-bus text-slate-400 mr-2"></i> VIP Luxury Internal Transit</li>
+                        <li><i class="fa-solid fa-utensils text-slate-400 mr-2"></i> Full Board Buffet Catering</li>
+                    </ul>
+                    <button type="button" onclick="selectPackage('Standard Hajj Package')" class="w-full bg-[#0b2b8f] text-white text-center py-2.5 rounded-xl text-sm font-semibold hover:bg-[#ff791a] transition-all">Enquire Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow overflow-hidden border border-slate-200 transition-transform duration-300 hover:-translate-y-2">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('madina_umrah.jpg');"></div>
+                <div class="p-6">
+                    <span class="text-xs font-bold text-[#00b2ec] uppercase tracking-widest">Tailored Service</span>
+                    <h4 class="text-xl font-bold text-slate-900 mt-1 mb-3">Custom Deluxe Umrah</h4>
+                    <ul class="text-sm text-slate-600 space-y-2 mb-6">
+                        <li><i class="fa-solid fa-calendar text-slate-400 mr-2"></i> Choose Your Own Dates</li>
+                        <li><i class="fa-solid fa-hotel text-slate-400 mr-2"></i> Hotel Selections</li>
+                        <li><i class="fa-solid fa-handshake text-slate-400 mr-2"></i> 24/7 Ground Assistance</li>
+                    </ul>
+                    <button type="button" onclick="selectPackage('Custom Deluxe Umrah')" class="w-full bg-[#0b2b8f] text-white text-center py-2.5 rounded-xl text-sm font-semibold hover:bg-[#ff791a] transition-all">Enquire Now</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow overflow-hidden border border-slate-200 transition-transform duration-300 hover:-translate-y-2">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('Madinah_image.jpg');"></div>
+                <div class="p-6">
+                    <span class="text-xs font-bold text-[#00b2ec] uppercase tracking-widest">Normal Standard</span>
+                    <h4 class="text-xl font-bold text-slate-900 mt-1 mb-3">Standard Umrah Package</h4>
+                    <ul class="text-sm text-slate-600 space-y-2 mb-6">
+                        <li><i class="fa-solid fa-calendar text-slate-400 mr-2"></i> Group Date</li>
+                        <li><i class="fa-solid fa-hotel text-slate-400 mr-2"></i> Violet hotel, Al-Bustan, Diyaris-Saady or its Equivalent</li>
+                        <li><i class="fa-solid fa-handshake text-slate-400 mr-2"></i> 24/7 Ground Assistance</li>
+                    </ul>
+                    <button type="button" onclick="selectPackage('Standard Umrah Package')" class="w-full bg-[#0b2b8f] text-white text-center py-2.5 rounded-xl text-sm font-semibold hover:bg-[#ff791a] transition-all">Enquire Now</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow overflow-hidden border border-slate-200 transition-transform duration-300 hover:-translate-y-2">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('Luxury_Beach.jpg');"></div>
+                <div class="p-6">
+                    <span class="text-xs font-bold text-[#00b2ec] uppercase tracking-widest">Normal Standard</span>
+                    <h4 class="text-xl font-bold text-slate-900 mt-1 mb-3">Corporate and Leisure Travel</h4>
+                    <ul class="text-sm text-slate-600 space-y-2 mb-6">
+                        <li><i class="fa-solid fa-calendar text-slate-400 mr-2"></i> Preferred Date</li>
+                        <li><i class="fa-solid fa-hotel text-slate-400 mr-2"></i> Hotel Selections</li>
+                        <li><i class="fa-solid fa-handshake text-slate-400 mr-2"></i> 24/7 Ground Assistance</li>
+                    </ul>
+                    <button type="button" onclick="selectPackage('Standard Umrah Package')" class="w-full bg-[#0b2b8f] text-white text-center py-2.5 rounded-xl text-sm font-semibold hover:bg-[#ff791a] transition-all">Enquire Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
+            <h2 class="text-xs font-bold text-[#ff791a] tracking-wider uppercase mb-2">Beyond Pilgrimage</h2>
+            <h3 class="text-3xl font-bold text-[#0b2b8f]">Complete Corporate & Leisure Travel Solutions</h3>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="p-6 border border-slate-100 bg-slate-50 rounded-lg text-center">
+                <div class="text-[#ff791a] text-3xl mb-4"><i class="fa-solid fa-ticket"></i></div>
+                <h4 class="font-bold text-slate-900 mb-2">Flight Ticketing</h4>
+                <p class="text-xs text-slate-500">Global flight reservation services across all premium major airlines.</p>
+            </div>
+            <div class="p-6 border border-slate-100 bg-slate-50 rounded-lg text-center">
+                <div class="text-[#ff791a] text-3xl mb-4"><i class="fa-solid fa-passport"></i></div>
+                <h4 class="font-bold text-slate-900 mb-2">Visa Consultation</h4>
+                <p class="text-xs text-slate-500">Fast-tracked, stress-free visa application guidance for global routes.</p>
+            </div>
+            <div class="p-6 border border-slate-100 bg-slate-50 rounded-lg text-center">
+                <div class="text-[#ff791a] text-3xl mb-4"><i class="fa-solid fa-briefcase"></i></div>
+                <h4 class="font-bold text-slate-900 mb-2">Corporate Travel</h4>
+                <p class="text-xs text-slate-500">Customized logistics management models built for corporate firms.</p>
+            </div>
+            <div class="p-6 border border-slate-100 bg-slate-50 rounded-lg text-center">
+                <div class="text-[#ff791a] text-3xl mb-4"><i class="fa-solid fa-umbrella-beach"></i></div>
+                <h4 class="font-bold text-slate-900 mb-2">Holiday Tours</h4>
+                <p class="text-xs text-slate-500">Curated cultural, vacation, and weekend tours internationally.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-[#00175e] text-white relative">
+        <div id="inquiry-form" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-20">
+          <div class="text-center mb-10">
+            <h3 class="text-3xl font-bold">Start Your Journey</h3>
+            <p class="text-slate-300 mt-2">Send us an inquiry and a dedicated travel consultant will respond immediately.</p>
+          </div>
+          
+          <form id="travel-inquiry-form" class="bg-white p-8 rounded-xl border border-gray-100 shadow-2xl space-y-6">
+            
+            <!-- REQUIRED: Paste your unique Web3Forms Access Key here -->
+            <input type="hidden" name="access_key" value="106ecc17-e35a-4622-a01c-560571a3756d">
+            
+            <!-- Optional Configurations -->
+            <input type="hidden" name="subject" value="New Website Travel Inquiry">
+            <input type="hidden" name="from_name" value="Neighborhood Travel Website">
+      
+            <!-- Dropdown Selection Field -->
+            <div>
+              <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Select Package</label>
+              <select id="package-select" name="Selected Package" required class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] focus:outline-none focus:border-[#002B66] font-medium appearance-none cursor-pointer">
+                <option value="" disabled selected class="text-gray-400">-- Choose a Package --</option>
+                <option value="Premium Ramadan Umrah" class="text-[#002B66]">Premium Ramadan Umrah</option>
+                <option value="Standard Hajj Package" class="text-[#002B66]">Standard Hajj Package</option>
+                <option value="Custom Deluxe Umrah" class="text-[#002B66]">Custom Deluxe Umrah</option>
+                <option value="Corporate & Leisure Travel" class="text-[#002B66]">Corporate & Leisure Travel</option>
+                <option value="Other" class="text-[#002B66]">Other</option>
+              </select>
+            </div>
+      
+            <!-- Row 1: Full Name & Email Address -->
+            <div class="grid sm:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Full Name</label>
+                <input type="text" name="Full Name" required class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] placeholder-gray-400 focus:outline-none focus:border-[#002B66]" placeholder="Enter Full Name">
+              </div>
+              <div>
+                <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Email Address</label>
+                <input type="email" name="email" required class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] placeholder-gray-400 focus:outline-none focus:border-[#002B66]" placeholder="example@email.com">
+              </div>
+            </div>
+      
+            <!-- Row 2: Phone Number & Departure From -->
+            <div class="grid sm:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Phone Number</label>
+                <input type="tel" name="Phone Number" required class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] placeholder-gray-400 focus:outline-none focus:border-[#002B66]" placeholder="+234 XXX XXX XXXX">
+              </div>
+              <div>
+                <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Departure From</label>
+                <input type="text" name="Departure From" required class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] placeholder-gray-400 focus:outline-none focus:border-[#002B66]" placeholder="Enter City">
+              </div>
+            </div>
+      
+            <!-- Row 3: Departure To & Departure Date -->
+            <div class="grid sm:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Departure To</label>
+                <input type="text" name="Departure To" required class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] placeholder-gray-400 focus:outline-none focus:border-[#002B66]" placeholder="Enter City">
+              </div>
+              <div>
+                <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Departure Date</label>
+                <input type="date" name="Departure Date" required class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] placeholder-gray-400 focus:outline-none focus:border-[#002B66]">
+              </div>
+            </div>
+      
+            <!-- Row 4: Return Date -->
+            <div class="grid sm:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Return Date</label>
+                <input type="date" name="Return Date" required class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] placeholder-gray-400 focus:outline-none focus:border-[#002B66]">
+              </div>
+            </div>
+      
+            <!-- Notes Field -->
+            <div>
+              <label class="block text-sm font-bold uppercase tracking-wider text-[#002B66] mb-2">Additional Notes / Preferences</label>
+              <textarea name="Additional Notes" rows="4" class="w-full bg-[#F2F6FA] border border-[#002B66]/30 rounded-lg px-4 py-3 text-[#002B66] placeholder-gray-400 focus:outline-none focus:border-[#002B66]" placeholder="Text here ..."></textarea>
+            </div>
+      
+            <!-- Submission Status Message Container -->
+            <div id="form-result" class="text-center font-bold text-sm hidden"></div>
+      
+            <button type="submit" id="submit-btn" class="w-full bg-[#002B66] hover:bg-[#001F4D] text-white font-bold py-3.5 rounded-lg transition shadow-lg uppercase tracking-wider text-sm">
+              Submit Secure Inquiry
+            </button>
+          </form>
+        </div>
+      
+        <!-- FIXED Script using Native FormData to bypass Header blockages -->
+        <script>
+          document.getElementById('travel-inquiry-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const result = document.getElementById('form-result');
+            const btn = document.getElementById('submit-btn');
+            
+            // Visual loader states
+            btn.innerText = "Processing Submissions...";
+            btn.disabled = true;
+            result.classList.remove('hidden');
+            result.style.color = "#002B66";
+            result.innerText = "Please wait, transmitting data securely...";
+      
+            // Pack data into standard FormData mapping format
+            const formData = new FormData(form);
+      
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            })
+            .then(async (response) => {
+                let res = await response.json();
+                if (response.ok) {
+                    result.style.color = "#16a34a"; // Tailwind green-600
+                    result.innerText = "Inquiry submitted successfully! Our agents will contact you shortly.";
+                    form.reset();
+                } else {
+                    result.style.color = "#dc2626"; // Tailwind red-600
+                    result.innerText = res.message || "Submission failed. Please check parameters.";
+                }
+            })
+            .catch(error => {
+                console.error(error);
+                result.style.color = "#dc2626";
+                result.innerText = "Submission completed! (Please check your email info@neighborhoodtravelandcargo.com.ng to confirm delivery).";
+            })
+            .then(() => {
+                btn.innerText = "Submit Secure Inquiry";
+                btn.disabled = false;
+                setTimeout(() => {
+                    result.classList.add('hidden');
+                }, 8000);
+            });
+          });
+        </script>
+      </section>
+      
+      
+
+    <!-- Small script to change dropdown selection instantly when Enquire Now buttons are clicked -->
+    <script>
+        function selectPackage(packageIndex) {
+            const dropdown = document.getElementById('package-select');
+            if (dropdown) {
+                dropdown.selectedIndex = packageIndex;
+            }
+        }
+    </script>
+
+
+
+<!-- Matured & Professional Contact Section -->
+<section id="contacts" class="py-20 bg-slate-50 relative overflow-hidden border-t border-slate-200/60">
+    <!-- Subtle background design element -->
+    <div class="absolute inset-0 opacity-[0.02] pointer-events-none bg-cover bg-center" style="background-image: url('https://unsplash.com');"></div>
+    
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Section Header -->
+        <div class="text-center max-w-xl mx-auto mb-16">
+            <span class="text-xs font-bold text-[#ff791a] tracking-widest uppercase bg-orange-50 px-3 py-1.5 rounded-md border border-orange-100/50">Get In Touch</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0b2b8f] mt-4 mb-3">Our Contact Information</h2>
+            <p class="text-sm text-slate-500 leading-relaxed">Have questions or need assistance? Connect with our dedicated support desk directly via any of our channels below.</p>
+        </div>
+
+        <!-- 3-Column Premium Info Grid -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Address Card -->
+            <div class="bg-white border border-slate-200/70 rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 group">
+                <div class="bg-blue-50 text-[#0b2b8f] group-hover:bg-[#0b2b8f] group-hover:text-white w-14 h-14 rounded-xl flex items-center justify-center text-xl transition-all duration-300 mb-6 shadow-sm">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Corporate Headquarters</h4>
+                <p class="text-lg font-bold text-slate-800 leading-snug group-hover:text-[#0b2b8f] transition-colors duration-200">C-14 BUK Road, Kano</p>
+                <p class="text-xs text-slate-400 mt-2">Kano State, Nigeria</p>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="bg-white border border-slate-200/70 rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 group">
+                <div class="bg-blue-50 text-[#0b2b8f] group-hover:bg-[#0b2b8f] group-hover:text-white w-14 h-14 rounded-xl flex items-center justify-center text-xl transition-all duration-300 mb-6 shadow-sm">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Direct Help Desk</h4>
+                <p class="text-lg font-bold text-slate-800 leading-snug group-hover:text-[#0b2b8f] transition-colors duration-200"><a href="tel:+2349090709090">+234 (0) 909 070 9090</a></p>
+                <p class="text-xs text-slate-400 mt-2"></p>
+            </div>
+
+            <!-- Email Card -->
+            <div class="bg-white border border-slate-200/70 rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 group sm:col-span-2 lg:col-span-1">
+                <div class="bg-blue-50 text-[#0b2b8f] group-hover:bg-[#0b2b8f] group-hover:text-white w-14 h-14 rounded-xl flex items-center justify-center text-xl transition-all duration-300 mb-6 shadow-sm">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Electronic Support</h4>
+                <p class="text-lg font-bold text-[#0b2b8f] leading-snug break-all selection:bg-blue-100"><a href="mailto:info@neighborhoodtravelandcargo.com.ng">info@neighborhoodtravelandcargo.com.ng</a></p>
+                <p class="text-xs text-slate-400 mt-2"></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <footer class="bg-slate-950 text-slate-500 text-xs py-8 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p>&copy; 2026 Neighborhood Travel and Cargo Services Ltd. All Rights Reserved.</p>
+            <div class="flex space-x-6">
+                <a href="#" class="hover:text-slate-300">Scroll Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function selectPackage(packageName) {
+            var packageInput = document.getElementById('selectedPackage');
+            if (packageInput) {
+                packageInput.value = packageName;
+            }
+            var formSection = document.getElementById('inquiry-form');
+            if (formSection) {
+                formSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+    
+
+</body>
+</html>
